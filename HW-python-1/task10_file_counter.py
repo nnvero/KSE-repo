@@ -1,9 +1,8 @@
 def count_words_in_file(filename):
     """
-    Count total number of words in a file.
-    Handle FileNotFoundError - return 0 if file doesn't exist.
+    Count total number of words in a file
     """
-
+    
     with open(filename, "r", encoding="utf-8") as file:
         content = file.read()
         if len(content) > 0:

@@ -1,7 +1,6 @@
 def find_phone_number(phone_book, name):
     """
-    Look up phone number by name.
-    Returns phone number or "Not found" if name doesn't exist.
+    Look up phone number by name
     """
     if name in phone_book:
         return phone_book[name]

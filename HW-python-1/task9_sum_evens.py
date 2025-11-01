@@ -11,12 +11,12 @@ def sum_even_numbers(start, end):
     
     while current_number <= end:
         if check_even_odd(current_number) == 'Even':
-            # Adding number to the sum
+            # Add number to the sum
             even_numbers_sum += current_number
-            # Moving to the next number
+            # Move to the next number
             current_number += 1
         else:
-            # Moving to the next number
+            # Move to the next number
             current_number += 1
 
     return even_numbers_sum            
